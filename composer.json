@@ -1,7 +1,7 @@
 {
     "name": "ernestochapon/user-auditable-for-laravel",
     "description": "Laravel package for user auditing in migrations and models",
-    "version": "1.5.1",
+    "version": "1.5.2",
     "type": "library",
     "keywords": [
         "laravel",
