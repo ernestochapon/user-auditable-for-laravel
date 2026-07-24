@@ -3,9 +3,9 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
 [![PHP Version](https://img.shields.io/badge/php-%3E%3D8.1-8892BF.svg)](https://php.net/)
 [![Laravel Version](https://img.shields.io/badge/laravel-%3E%3D9.0-FF2D20.svg)](https://laravel.com)
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/ernestoch/user-auditable-for-laravel.svg?style=flat-square)](https://packagist.org/packages/ernestoch/user-auditable-for-laravel)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/ernestochapon/user-auditable-for-laravel.svg?style=flat-square)](https://packagist.org/packages/ernestochapon/user-auditable-for-laravel)
 [![Tests](https://github.com/3rn3st0/user-auditable-for-laravel/actions/workflows/test.yml/badge.svg)](https://github.com/3rn3st0/user-auditable-for-laravel/actions/workflows/test.yml)
-[![Total Downloads](https://img.shields.io/packagist/dt/ernestoch/user-auditable-for-laravel.svg?style=flat-square)](https://packagist.org/packages/ernestoch/user-auditable-for-laravel)
+[![Total Downloads](https://img.shields.io/packagist/dt/ernestochapon/user-auditable-for-laravel.svg?style=flat-square)](https://packagist.org/packages/ernestochapon/user-auditable-for-laravel)
 
 A Laravel package that provides user auditing capabilities for your database tables and Eloquent models. Easily track which users create, update, and delete records in your application.
 
@@ -33,7 +33,7 @@ A Laravel package that provides user auditing capabilities for your database tab
 ## Installation
 
 ```bash
-composer require ernestoch/user-auditable-for-laravel
+composer require ernestochapon/user-auditable-for-laravel
 ```
 
 ## Configuration
@@ -152,7 +152,7 @@ Use the `UserAuditable` trait in your Eloquent models:
 
 namespace App\Models;
 
-use ErnestoCh\UserAuditable\Traits\UserAuditable;
+use ErnestoChapon\UserAuditable\Traits\UserAuditable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
@@ -177,7 +177,7 @@ Use the `EventAuditable` trait for dynamic access to custom events:
 
 namespace App\Models;
 
-use ErnestoCh\UserAuditable\Traits\EventAuditable;
+use ErnestoChapon\UserAuditable\Traits\EventAuditable;
 use Illuminate\Database\Eloquent\Model;
 
 class Product extends Model
@@ -300,9 +300,9 @@ return new class extends Migration
 
 namespace App\Models;
 
-use ErnestoCh\UserAuditable\Traits\ChangeAuditable;
-use ErnestoCh\UserAuditable\Traits\EventAuditable;
-use ErnestoCh\UserAuditable\Traits\UserAuditable;
+use ErnestoChapon\UserAuditable\Traits\ChangeAuditable;
+use ErnestoChapon\UserAuditable\Traits\EventAuditable;
+use ErnestoChapon\UserAuditable\Traits\UserAuditable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
@@ -386,7 +386,7 @@ $diff = $post->diffBetween($logs->first(), $logs->last());
 #### Pruning Old Logs
 
 ```php
-use ErnestoCh\UserAuditable\Models\AuditLog;
+use ErnestoChapon\UserAuditable\Models\AuditLog;
 
 // Delete all entries older than 90 days
 $deleted = AuditLog::pruneOlderThan(90);
