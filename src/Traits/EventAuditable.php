@@ -2,7 +2,6 @@
 
 namespace ErnestoCh\UserAuditable\Traits;
 
-use BadMethodCallException;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Facades\Schema;
@@ -46,7 +45,7 @@ trait EventAuditable
             $userId = $arguments[0] ?? null;
 
             if ($userId === null) {
-                throw new BadMethodCallException("User ID required for {$method}");
+                throw new \BadMethodCallException("User ID required for {$method}");
             }
 
             $column = "{$event}_by";
