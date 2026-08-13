@@ -1,8 +1,8 @@
 <?php
 
-namespace ErnestoCh\UserAuditable\Tests\TestModels;
+namespace ErnestoChapon\UserAuditable\Tests\TestModels;
 
-use ErnestoCh\UserAuditable\Traits\UserAuditable;
+use ErnestoChapon\UserAuditable\Traits\UserAuditable;
 use Illuminate\Database\Eloquent\Model;
 
 class TestModelWithoutSoftDeletes extends Model

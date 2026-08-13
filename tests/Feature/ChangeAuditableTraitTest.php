@@ -1,12 +1,12 @@
 <?php
 
-namespace ErnestoCh\UserAuditable\Tests\Feature;
+namespace ErnestoChapon\UserAuditable\Tests\Feature;
 
-use ErnestoCh\UserAuditable\Models\AuditLog;
-use ErnestoCh\UserAuditable\Tests\TestCase;
-use ErnestoCh\UserAuditable\Tests\TestModels\TestModelWithChangeAuditable;
-use ErnestoCh\UserAuditable\Tests\TestModels\TestModelWithChangeAuditableInclude;
-use ErnestoCh\UserAuditable\Tests\TestModels\TestUser;
+use ErnestoChapon\UserAuditable\Models\AuditLog;
+use ErnestoChapon\UserAuditable\Tests\TestCase;
+use ErnestoChapon\UserAuditable\Tests\TestModels\TestModelWithChangeAuditable;
+use ErnestoChapon\UserAuditable\Tests\TestModels\TestModelWithChangeAuditableInclude;
+use ErnestoChapon\UserAuditable\Tests\TestModels\TestUser;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;

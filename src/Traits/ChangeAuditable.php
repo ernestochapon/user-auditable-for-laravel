@@ -1,8 +1,8 @@
 <?php
 
-namespace ErnestoCh\UserAuditable\Traits;
+namespace ErnestoChapon\UserAuditable\Traits;
 
-use ErnestoCh\UserAuditable\Models\AuditLog;
+use ErnestoChapon\UserAuditable\Models\AuditLog;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Support\Arr;

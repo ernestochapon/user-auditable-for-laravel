@@ -1,6 +1,6 @@
 <?php
 
-namespace ErnestoCh\UserAuditable\Providers;
+namespace ErnestoChapon\UserAuditable\Providers;
 
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;

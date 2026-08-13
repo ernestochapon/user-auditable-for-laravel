@@ -1,9 +1,9 @@
 <?php
 
-namespace ErnestoCh\UserAuditable\Tests\Unit;
+namespace ErnestoChapon\UserAuditable\Tests\Unit;
 
-use ErnestoCh\UserAuditable\Models\AuditLog;
-use ErnestoCh\UserAuditable\Tests\TestCase;
+use ErnestoChapon\UserAuditable\Models\AuditLog;
+use ErnestoChapon\UserAuditable\Tests\TestCase;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 use PHPUnit\Framework\Attributes\Test;

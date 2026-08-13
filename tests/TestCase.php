@@ -1,9 +1,9 @@
 <?php
 
-namespace ErnestoCh\UserAuditable\Tests;
+namespace ErnestoChapon\UserAuditable\Tests;
 
-use ErnestoCh\UserAuditable\Providers\UserAuditableServiceProvider;
-use ErnestoCh\UserAuditable\Tests\TestModels\TestUser;
+use ErnestoChapon\UserAuditable\Providers\UserAuditableServiceProvider;
+use ErnestoChapon\UserAuditable\Tests\TestModels\TestUser;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra

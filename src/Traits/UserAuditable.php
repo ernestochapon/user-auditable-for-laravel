@@ -1,6 +1,6 @@
 <?php
 
-namespace ErnestoCh\UserAuditable\Traits;
+namespace ErnestoChapon\UserAuditable\Traits;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;

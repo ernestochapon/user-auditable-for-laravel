@@ -1,8 +1,8 @@
 <?php
 
-namespace ErnestoCh\UserAuditable\Tests\Feature;
+namespace ErnestoChapon\UserAuditable\Tests\Feature;
 
-use ErnestoCh\UserAuditable\Tests\TestCase;
+use ErnestoChapon\UserAuditable\Tests\TestCase;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 use PHPUnit\Framework\Attributes\Test;

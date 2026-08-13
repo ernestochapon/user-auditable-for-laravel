@@ -1,10 +1,10 @@
 <?php
 
-namespace ErnestoCh\UserAuditable\Tests\TestModels;
+namespace ErnestoChapon\UserAuditable\Tests\TestModels;
 
-use ErnestoCh\UserAuditable\Traits\ChangeAuditable;
-use ErnestoCh\UserAuditable\Traits\EventAuditable;
-use ErnestoCh\UserAuditable\Traits\UserAuditable;
+use ErnestoChapon\UserAuditable\Traits\ChangeAuditable;
+use ErnestoChapon\UserAuditable\Traits\EventAuditable;
+use ErnestoChapon\UserAuditable\Traits\UserAuditable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 

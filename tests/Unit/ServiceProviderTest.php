@@ -1,9 +1,9 @@
 <?php
 
-namespace ErnestoCh\UserAuditable\Tests\Unit;
+namespace ErnestoChapon\UserAuditable\Tests\Unit;
 
-use ErnestoCh\UserAuditable\Providers\UserAuditableServiceProvider;
-use ErnestoCh\UserAuditable\Tests\TestCase;
+use ErnestoChapon\UserAuditable\Providers\UserAuditableServiceProvider;
+use ErnestoChapon\UserAuditable\Tests\TestCase;
 use Illuminate\Database\Schema\Blueprint;
 use PHPUnit\Framework\Attributes\Test;
 use RuntimeException;
@@ -16,7 +16,7 @@ class ServiceProviderTest extends TestCase
         $providers = $this->app->getLoadedProviders();
 
         $this->assertArrayHasKey(
-            'ErnestoCh\\UserAuditable\\Providers\\UserAuditableServiceProvider',
+            'ErnestoChapon\\UserAuditable\\Providers\\UserAuditableServiceProvider',
             $providers
         );
     }

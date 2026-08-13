@@ -1,6 +1,6 @@
 <?php
 
-namespace ErnestoCh\UserAuditable\Tests\TestModels;
+namespace ErnestoChapon\UserAuditable\Tests\TestModels;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;

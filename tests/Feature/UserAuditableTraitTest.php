@@ -1,12 +1,12 @@
 <?php
 
-namespace ErnestoCh\UserAuditable\Tests\Feature;
+namespace ErnestoChapon\UserAuditable\Tests\Feature;
 
-use ErnestoCh\UserAuditable\Tests\TestCase;
-use ErnestoCh\UserAuditable\Tests\TestModels\TestModelWithoutSoftDeletes;
-use ErnestoCh\UserAuditable\Tests\TestModels\TestModelWithSoftDeletes;
-use ErnestoCh\UserAuditable\Tests\TestModels\TestUser;
-use ErnestoCh\UserAuditable\Traits\UserAuditable;
+use ErnestoChapon\UserAuditable\Tests\TestCase;
+use ErnestoChapon\UserAuditable\Tests\TestModels\TestModelWithoutSoftDeletes;
+use ErnestoChapon\UserAuditable\Tests\TestModels\TestModelWithSoftDeletes;
+use ErnestoChapon\UserAuditable\Tests\TestModels\TestUser;
+use ErnestoChapon\UserAuditable\Traits\UserAuditable;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;

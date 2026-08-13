@@ -1,8 +1,8 @@
 <?php
 
-namespace ErnestoCh\UserAuditable\Tests\TestModels;
+namespace ErnestoChapon\UserAuditable\Tests\TestModels;
 
-use ErnestoCh\UserAuditable\Traits\ChangeAuditable;
+use ErnestoChapon\UserAuditable\Traits\ChangeAuditable;
 use Illuminate\Database\Eloquent\Model;
 
 class TestModelWithChangeAuditableInclude extends Model

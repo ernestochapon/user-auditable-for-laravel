@@ -1,6 +1,6 @@
 <?php
 
-namespace ErnestoCh\UserAuditable\Traits;
+namespace ErnestoChapon\UserAuditable\Traits;
 
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Builder;

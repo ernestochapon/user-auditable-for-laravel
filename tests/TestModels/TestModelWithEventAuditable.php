@@ -1,8 +1,8 @@
 <?php
 
-namespace ErnestoCh\UserAuditable\Tests\TestModels;
+namespace ErnestoChapon\UserAuditable\Tests\TestModels;
 
-use ErnestoCh\UserAuditable\Traits\EventAuditable;
+use ErnestoChapon\UserAuditable\Traits\EventAuditable;
 use Illuminate\Database\Eloquent\Model;
 
 class TestModelWithEventAuditable extends Model

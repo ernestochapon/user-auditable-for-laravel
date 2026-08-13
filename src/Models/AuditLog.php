@@ -1,6 +1,6 @@
 <?php
 
-namespace ErnestoCh\UserAuditable\Models;
+namespace ErnestoChapon\UserAuditable\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;

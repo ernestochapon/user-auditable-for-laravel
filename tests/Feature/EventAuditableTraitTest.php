@@ -1,10 +1,10 @@
 <?php
 
-namespace ErnestoCh\UserAuditable\Tests\Feature;
+namespace ErnestoChapon\UserAuditable\Tests\Feature;
 
-use ErnestoCh\UserAuditable\Tests\TestCase;
-use ErnestoCh\UserAuditable\Tests\TestModels\TestModelWithEventAuditable;
-use ErnestoCh\UserAuditable\Tests\TestModels\TestUser;
+use ErnestoChapon\UserAuditable\Tests\TestCase;
+use ErnestoChapon\UserAuditable\Tests\TestModels\TestModelWithEventAuditable;
+use ErnestoChapon\UserAuditable\Tests\TestModels\TestUser;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Schema;
